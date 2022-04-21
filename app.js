@@ -19,7 +19,7 @@ res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+p
 }).listen(9009);
 console.log(__dirname+"/images/mithunlogo.jpg");
 */
-app.get('/mithuntechnologies', function(request, response) {
+app.get('/sunny', function(request, response) {
     //response.send("helo");
 	
     response.write("helo" );
